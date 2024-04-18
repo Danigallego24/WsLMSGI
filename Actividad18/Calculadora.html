@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Piquitos</title>
+    <style>
+        header{
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: white;
+            text-align: center;
+        }
+        body{
+            background-image: url(https://img.asmedia.epimg.net/resizer/v2/WRT2UQ5E2ZAKJKEWWS4ISZA6BE.jpg?auth=1f20eddb771bb5474824d174086b129b15a76c1e1dec4642024a8feff796c97f&width=360);
+            text-align: center;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            background-position: center;
+        }
+        label{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            background-color: white;
+        }
+    </style>
+    <script type="text/javascript" src="Calculadora.js"></script>
+</head>
+<header>
+    <h1>CALCULADORA DE PIQUITOS</h1>
+</header>
+<body>
+    <br/>
+    <br/>
+    <br/>
+    <label>Introduzca el primer numero </label><input id="numero1" type="number" value=""/>
+    <br/>
+    <label>Introduzca el segundo numero </label><input id="numero2" type="number" value=""/>
+    <br/>
+    <br/>
+
+    <!-- SUMA -->
+
+    <br/>
+    <button onclick="mostrarSuma(numero1.value, numero2.value)">🍆 SUMAR 🍆</button>
+    
+    <!-- RESTA -->
+
+    <br/>
+    <button onclick="mostrarResta(numero1.value, numero2.value)">🍌 RESTAR 🍌</button>
+
+    <!-- MULTIPLICACION -->
+
+    <br/>
+    <button onclick="mostrarMultiplicacion(numero1.value, numero2.value)">🍑 MULTIPLICAR 🍑</button>
+
+    <!-- DIVISION -->
+
+    <br/>
+    <button onclick="mostrarDivision(numero1.value, numero2.value)">🍒 DIVIDIR 🍒</button>
+
+    <!-- RESULTADO -->
+    <br/>
+    <br/>
+    <img src="https://www.lasvocesdelpueblo.com/wp-content/uploads/2023/08/Rubiales-1068x712.jpg" width="700" height="450">
+    <br/>
+    <br/>
+    <label>RESULTADO </label><input id="resultado" type="number" value=""/>
+
+
+
+</body>
+</html>

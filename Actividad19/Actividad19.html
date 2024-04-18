@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad19</title>
+    <script type="text/javascript" src="Actividad19.js"></script>
+</head>
+<header>
+    <h1>BIENVENIDO</h1>
+</header>
+<body>
+
+    <!-- CONTADOR DE NUMEROS PARES -->
+    </br>
+    <h2>CONTADOR DE NUMEROS PARES</h2>
+    <h3>A continuación introduzca un rango en el que van a estar comprendidos los numeros</h3>
+    <br/>
+    <label>Introduzca el numero minimo del rango: </label><input id="numeroMin" type="number" value=""/>
+    <br/>
+    <label>Introduzca el numero maximo del rango: </label><input id="numeroMax" type="number" value=""/>
+    <br/>
+    <br/>
+    <button onclick="mostrarContadorPares()">🍆 MOSTRAR NUMEROS PARES 🍆</button>
+    </br>
+    <label>RESULTADO: </label><input id="contador" type="text"/>
+
+    <!-- CONVERSOR DE TEMPERATURA -->
+    </br>
+    <h2>CONVERSOR DE TEMPERATURA</h2>
+    <h3>A continuación vamos a hacer conversiones de temperatura</h3>
+    <br/>
+    <label>Introduzca la temperatura en grados centigrados a convertir: </label><input id="temperaturaCentigrados" type="number" value=""/>
+    <br/>
+    <br/>
+    <button onclick="conversorTemperaturaCentigrados()">🍌 MOSTRAR TEMPERATURA EN FAHRENHEIT 🍌</button>
+    </br>
+    <label>RESULTADO: </label><input id="temperaturaFahrenheit" type="text"/>
+    <br/>
+    <br/>
+    <label>Introduzca la temperatura en grados fahrenheit a convertir: </label><input id="tempFahrenheit" type="number" value=""/>
+    <br/>
+    <br/>
+    <button onclick="conversorTemperaturaFahrenheit()">🍑 MOSTRAR TEMPERATURA EN CENTIGRADOS 🍑</button>
+    </br>
+    <label>RESULTADO: </label><input id="tempCentigrados" type="text"/>
+
+    <!-- MULTIPLICACION -->
+
+    <br/>
+    <button onclick="mostrarMultiplicacion(numero1.value, numero2.value)">🍑 MULTIPLICAR 🍑</button>
+
+    <!-- DIVISION -->
+
+    <br/>
+    <button onclick="mostrarDivision(numero1.value, numero2.value)">🍒 DIVIDIR 🍒</button>
+</body>
+</html>
