@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,50 +10,84 @@
 <header>
     <h1>BIENVENIDO</h1>
 </header>
+
 <body>
 
     <!-- CONTADOR DE NUMEROS PARES -->
     </br>
     <h2>CONTADOR DE NUMEROS PARES</h2>
     <h3>A continuación introduzca un rango en el que van a estar comprendidos los numeros</h3>
-    <br/>
-    <label>Introduzca el numero minimo del rango: </label><input id="numeroMin" type="number" value=""/>
-    <br/>
-    <label>Introduzca el numero maximo del rango: </label><input id="numeroMax" type="number" value=""/>
-    <br/>
-    <br/>
+    <br />
+    <label>Introduzca el numero minimo del rango: </label><input id="numeroMin" type="number" value="" />
+    <br />
+    <label>Introduzca el numero maximo del rango: </label><input id="numeroMax" type="number" value="" />
+    <br />
+    <br />
     <button onclick="mostrarContadorPares()">🍆 MOSTRAR NUMEROS PARES 🍆</button>
     </br>
-    <label>RESULTADO: </label><input id="contador" type="text"/>
+    <label>RESULTADO: </label><input id="contador" type="text" />
 
     <!-- CONVERSOR DE TEMPERATURA -->
     </br>
     <h2>CONVERSOR DE TEMPERATURA</h2>
     <h3>A continuación vamos a hacer conversiones de temperatura</h3>
-    <br/>
-    <label>Introduzca la temperatura en grados centigrados a convertir: </label><input id="temperaturaCentigrados" type="number" value=""/>
-    <br/>
-    <br/>
+    <br />
+    <label>Introduzca la temperatura en grados centigrados a convertir: </label><input id="temperaturaCentigrados"
+        type="number" value="" />
+    <br />
+    <br />
     <button onclick="conversorTemperaturaCentigrados()">🍌 MOSTRAR TEMPERATURA EN FAHRENHEIT 🍌</button>
     </br>
-    <label>RESULTADO: </label><input id="temperaturaFahrenheit" type="text"/>
-    <br/>
-    <br/>
-    <label>Introduzca la temperatura en grados fahrenheit a convertir: </label><input id="tempFahrenheit" type="number" value=""/>
-    <br/>
-    <br/>
+    <label>RESULTADO: </label><input id="temperaturaFahrenheit" type="text" />
+    <br />
+    <br />
+    <label>Introduzca la temperatura en grados fahrenheit a convertir: </label><input id="tempFahrenheit" type="number"
+        value="" />
+    <br />
+    <br />
     <button onclick="conversorTemperaturaFahrenheit()">🍑 MOSTRAR TEMPERATURA EN CENTIGRADOS 🍑</button>
     </br>
-    <label>RESULTADO: </label><input id="tempCentigrados" type="text"/>
+    <label>RESULTADO: </label><input id="tempCentigrados" type="text" />
 
-    <!-- MULTIPLICACION -->
+    <!-- JUEGO ADIVINA EL NUMERO -->
+    </br>
+    <h2>JUEGO ADIVINA EL NUMERO</h2>
+    <h3>A continuación vamos a jugar un juego de adivinar el numero comprendido entre 1 y 100</h3>
+    <br />
+    <button onclick="adivinarNumero()">🍆 JUEGO 🍆</button>
 
-    <br/>
-    <button onclick="mostrarMultiplicacion(numero1.value, numero2.value)">🍑 MULTIPLICAR 🍑</button>
+    <!-- CAMBIAR EL COLOR DE LA PAGINA -->
+    </br>
+    <h2>CAMBIAR COLOR DE PAGINA</h2>
+    <h3>A continuación vamos a cambiar el color de la pagina</h3>
+    <br />
+    <label>Introduzca el color a cambiar en inglés</label><input id="colorPag" type="String" value="" />
+    <br />
+    <button onclick="cambiarColorPag()">🍒 CAMBIAR 🍒</button>
 
-    <!-- DIVISION -->
+    <!-- CONTRASEÑA Y USUARIO -->
+    </br>
+    <h2>CONTRASEÑA Y USUARIO</h2>
+    <label>Introduzca el usuario</label><input id="usuario" type="String" value="" />
+    <br />
+    <label>Introduzca la contraseña</label><input id="contrasenya" type="String" value="" />
+    <br />
+    <br />
+    <button onclick="introducirContrasenyaUsuario()">🍌 ENTRAR 🍌</button>
 
-    <br/>
-    <button onclick="mostrarDivision(numero1.value, numero2.value)">🍒 DIVIDIR 🍒</button>
+    <!-- NUMERO PRIMO -->
+    </br>
+    <h2>NUMERO PRIMO</h2>
+    <label>Introduzca el numero</label><input id="numero" type="number" value="" />
+    <br />
+    <button onclick="verificarSiEsPrimo()">🍑 VAMO' ALLA 🍑</button>
+
+    <!-- SECUENCIA DE FIBONACCI -->
+    </br>
+    <h2>SECUENCIA FIBONACCI</h2>
+    <label>Introduzca el numero hasta donde quieres la secuencia de FIBONACCI</label><input id="fibonacci" type="number" value="" />
+    <br />
+    <button onclick="generarFibonacci()">🍒 LET'S GO 🍒</button>
 </body>
+
 </html>
